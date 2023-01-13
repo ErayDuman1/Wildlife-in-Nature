@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutPageActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center"
+                android:text="          Hello Welcome to the app."
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="The application performs classification using deep learning models.On the Image Classification side It makes a prediction about the mushroom, bird, plant and insect species of the uploaded photo with the trained deep learning models and writes the estimated output."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Storage camera and audio permission is required for the app to work.Photos taken by the application are saved in Android/data/com.example.WiN/Files/Pictures."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="On the Audio Classification side, it recognizes the sound of birds and surrounding animals with its voice recognition feature and writes it as output in the application."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="You can send your complaints and suggestions about the application to this e-mail address."
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="312dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="60dp"
+                android:drawableLeft="@drawable/mail_account_icon"
+                android:text=" erayduman833@gmail.com"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="312dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/github"
+                android:layout_gravity="center"
+                android:text=" https://github.com/ErayDuman1"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

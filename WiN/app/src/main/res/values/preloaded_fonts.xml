@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/almendra_bold_italic</item>
+        <item>@font/arima_madurai_thin</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/dancing_script</item>
+        <item>@font/faster_one</item>
+        <item>@font/jim_nightshade</item>
+        <item>@font/just_me_again_down_here</item>
+        <item>@font/nothing_you_could_do</item>
+    </array>
+</resources>
